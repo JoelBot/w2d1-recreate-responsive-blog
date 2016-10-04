@@ -119,6 +119,9 @@ li:before {
         margin-top: 12em;
         /*margin-bottom: 250px;*/
     }
+    .flex-spacing {
+        justify-content: space-between;
+    }
     .hide-large {
         display: none;
     }
