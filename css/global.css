@@ -1,8 +1,12 @@
 * { box-sizing: border-box;
-    border: 1px solid black;}
+    /*border: 1px solid black;*/
+}
     html,body { height: 100%;}
     img { width: 100%;}
 
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
     h3{
         color: #075AFF;
     }
@@ -26,10 +30,10 @@
         text-align: center;
         padding-top: 15vw;
         flex-direction: column;;
-        justify-content: flex-end;
+        justify-content: space-around;;
     }
     .left-column img {
-        width: 30%;
+        width: 200px;;
         border-radius: 180px;
         box-shadow: 2px 2px 10px black;
     }
@@ -92,6 +96,9 @@
         .row {
             flex-direction: row;
         }
+        .col {
+            padding: 3vw;
+        }
         #statement {
 
             font-size: 3vw;
@@ -101,7 +108,7 @@
     @media screen and (min-width: 768px) {
         .col {
             flex-direction: row;
-            border: 1px solid black;
+            /*border: 1px solid black;*/
         }
         .visible-large {
             display: block;
