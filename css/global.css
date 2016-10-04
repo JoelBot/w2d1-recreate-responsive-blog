@@ -20,7 +20,7 @@
         display: flex;
     }
     .col {
-        /*flex: 1;*/
+        padding-left: 10px
     }
 
     .left-column {
@@ -41,6 +41,7 @@
     .right-column {
         flex: 6;
         align-content: flex-end;
+        line-height: 1.5;
     }
 
     .visible-large {
@@ -97,7 +98,7 @@
             flex-direction: row;
         }
         .col {
-            padding: 3vw;
+            padding: 10px;
         }
         #statement {
 
@@ -112,6 +113,11 @@
         }
         .visible-large {
             display: block;
+        }
+        .cludgymargins {
+            /*margin-top: 400px;*/
+            margin-top: 12em;
+            /*margin-bottom: 250px;*/
         }
         .hide-large {
             display: none;
