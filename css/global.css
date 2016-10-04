@@ -3,10 +3,13 @@
     html,body { height: 100%;}
     img { width: 100%;}
 
+    h3{
+        color: #075AFF;
+    }
     .row {
         display: flex;
         flex-direction: column;
-        height: 1100px;
+        /*height: 1100px;*/
         /*Fix this height*/
     }
     .display-flex {
@@ -77,6 +80,13 @@
     .col-10 { flex: 10; }
     .col-11 { flex: 11; }
     .col-12 { flex: 12; }
+
+    li {
+        list-style: none;
+    }
+    li:before {
+        content: "\25B6 \ "; /* caractère ISO 10646 */
+    }
 
     @media screen and (min-width: 554px) {
         .row {
